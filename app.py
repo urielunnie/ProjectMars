@@ -25,7 +25,6 @@ def home():
 
 @app.route("/mars", methods=["POST"])
 def web_mars_post():
-    # sample_receive = request.form['sample_give']
     name_receive = request.form['name_give']
     address_receive = request.form['address_give']
     size_receive = request.form['size_give']
